@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26E434E81B12F87A00101241 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 26E434E61B12F87A00101241 /* menu.png */; };
+		26E434E91B12F87A00101241 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 26E434E71B12F87A00101241 /* icon.png */; };
+		26E434ED1B12F96400101241 /* ZXBlurSideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E434EC1B12F96400101241 /* ZXBlurSideBarViewController.m */; };
 		26E7308E1B1078470056B1ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E7308D1B1078470056B1ED /* main.m */; };
 		26E730911B1078470056B1ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E730901B1078470056B1ED /* AppDelegate.m */; };
 		26E730991B1078470056B1ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E730981B1078470056B1ED /* Images.xcassets */; };
@@ -37,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26E434E61B12F87A00101241 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		26E434E71B12F87A00101241 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		26E434EB1B12F96400101241 /* ZXBlurSideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXBlurSideBarViewController.h; sourceTree = "<group>"; };
+		26E434EC1B12F96400101241 /* ZXBlurSideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXBlurSideBarViewController.m; sourceTree = "<group>"; };
 		26E730881B1078470056B1ED /* ZXBlurSideBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXBlurSideBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E7308C1B1078470056B1ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26E7308D1B1078470056B1ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26E434EA1B12F8B300101241 /* ZXBlurSideBar */ = {
+			isa = PBXGroup;
+			children = (
+				26E434EB1B12F96400101241 /* ZXBlurSideBarViewController.h */,
+				26E434EC1B12F96400101241 /* ZXBlurSideBarViewController.m */,
+			);
+			path = ZXBlurSideBar;
+			sourceTree = "<group>";
+		};
 		26E7307F1B1078470056B1ED = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +123,7 @@
 			children = (
 				26E7308F1B1078470056B1ED /* AppDelegate.h */,
 				26E730901B1078470056B1ED /* AppDelegate.m */,
+				26E434EA1B12F8B300101241 /* ZXBlurSideBar */,
 				26E730B11B1085410056B1ED /* BaseFramework */,
 				26E730B81B1085610056B1ED /* Controllers */,
 				26E730C21B1086560056B1ED /* image */,
@@ -170,6 +187,8 @@
 		26E730C21B1086560056B1ED /* image */ = {
 			isa = PBXGroup;
 			children = (
+				26E434E61B12F87A00101241 /* menu.png */,
+				26E434E71B12F87A00101241 /* icon.png */,
 				26E730C31B1086560056B1ED /* TabBar */,
 			);
 			name = image;
@@ -272,10 +291,12 @@
 			files = (
 				26E730CF1B1086560056B1ED /* opinion@2x.png in Resources */,
 				26E730CB1B1086560056B1ED /* about@2x.png in Resources */,
+				26E434E91B12F87A00101241 /* icon.png in Resources */,
 				26E7309C1B1078470056B1ED /* LaunchScreen.xib in Resources */,
 				26E730991B1078470056B1ED /* Images.xcassets in Resources */,
 				26E730CC1B1086560056B1ED /* about_sel@2x.png in Resources */,
 				26E730CD1B1086560056B1ED /* blog@2x.png in Resources */,
+				26E434E81B12F87A00101241 /* menu.png in Resources */,
 				26E730D01B1086560056B1ED /* opinion_sel@2x.png in Resources */,
 				26E730CE1B1086560056B1ED /* blog_sel@2x.png in Resources */,
 				26E730D11B1086560056B1ED /* tabbar_background@2x.png in Resources */,
@@ -296,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E434ED1B12F96400101241 /* ZXBlurSideBarViewController.m in Sources */,
 				26E730911B1078470056B1ED /* AppDelegate.m in Sources */,
 				26E730B71B1085410056B1ED /* MainTabBarViewController.m in Sources */,
 				26E730C11B1085610056B1ED /* thirdPageViewController.m in Sources */,
@@ -489,6 +511,7 @@
 				26E730AD1B1078470056B1ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26E730AE1B1078470056B1ED /* Build configuration list for PBXNativeTarget "ZXBlurSideBarTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +520,7 @@
 				26E730B01B1078470056B1ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

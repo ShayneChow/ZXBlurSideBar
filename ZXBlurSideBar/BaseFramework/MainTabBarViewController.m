@@ -92,7 +92,7 @@
         labTitle.textAlignment = NSTextAlignmentCenter;
         labTitle.text = aryTitle[i];
         [btn addSubview:labTitle];
-        
+
         
         btn.tag = i;//设置按钮的标记, 方便来索引当前的按钮,并跳转到相应的视图
         
