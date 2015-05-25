@@ -163,7 +163,7 @@
 {
     CGRect rect = self.contentView.frame;
     float percent = (kSidebarWidth + rect.origin.x) / kSidebarWidth;
-    self.blurView.alpha = percent = 0.1 + (1-0.2)*(percent); // 不从0开始，效果更明显
+    self.blurView.alpha = percent = 0.2 + (1-0.2)*(percent); // 不从0开始，效果更明显
     NSLog(@"blur alpha = %f", percent);
     
     percent = 0.7 + (0.8-0.7)*(percent);
